@@ -4,14 +4,15 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <>
-    <div>Navbar 
-    <img src={logo} alt='image not found'/> 
+    <div className='container'>
+    <img className="logo"  src={logo} alt='image not found'/> 
     <ul>
         <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+        <li>program</li>
+        <li>about us</li>
+        <li>campus</li>
+        <li><button>contact us</button ></li>
+
 
     </ul>
     </div>
